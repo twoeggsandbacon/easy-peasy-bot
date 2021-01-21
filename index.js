@@ -89,10 +89,6 @@ controller.hears('hello', 'direct_message', function (bot, message) {
     bot.reply(message, 'Hello!');
 });
 
-controller.hears('ping', 'direct_message', function (bot, message) {
-    bot.reply(message, 'pong :blobcowboy:');
-});
-
 
 /**
  * AN example of what could be:
